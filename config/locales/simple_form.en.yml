@@ -10,6 +10,8 @@ en:
     placeholders:
       quote:
         name: Name of your quote
+      line_item_date:
+        date: Date
     labels:
       quote:
         name: Name
@@ -18,3 +20,6 @@ en:
       quote:
         create: Create quote
         update: Update quote
+      line_item_date:
+        create: Create date
+        update: Update date
