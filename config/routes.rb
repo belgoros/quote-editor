@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'line_items/new'
+  get 'line_items/create'
   root to: "pages#home"
   devise_for :users
   resources :quotes do
